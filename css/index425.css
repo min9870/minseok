@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+@media screen and (max-width:425px) {
+    .smth {
+        padding: 40px 20px;
+        transition: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .smth.on{
+        display: none;
+    }
+    .sm {
+        font-size: 2.5em;
+        animation: none;
+        writing-mode:horizontal-tb;
+    }
+    .shootf{
+        margin: 0 auto;
+        width: 100%;
+        transform: rotate(90deg);
+        animation: none;
+    }
+    .phone{
+        width: 80%;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .camslaid {
+        width: 400px;
+        height: 300px;
+        margin: 0 auto;
+        animation: none;
+    }
+    .mySwiper{
+        width: 70%;
+        /* height: 80%; */
+        margin: -40px;
+        top: 50%; left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    .arow-next{
+        display: none;
+    }
+    .arow-prev{
+        display: none;
+    }
+    .in{
+        display: none;
+    }
+    .last img{
+        display: none;
+    }
+   
+    .taitle{
+        font-size: 2.5rem;
+        margin: 50px 0 0 35px;
+    }
+    .content{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .mypoto{
+        margin: 10px 70px;
+    }
+    .mypoto.on{
+        width: 50%;
+    }
+    .career{
+        line-height: 18px;
+        font-size: 0.8rem;
+        margin: 30px 0 0 0;
+    }
+    .ability{
+        width: 80%;
+        height: 5%;
+        bottom: 30px; right: 40px;
+        justify-content: space-between;
+        flex-direction: row;  
+    }
+    .abilitylogo{
+        width: 30px;
+        height: 30px;
+    }
+    .videoone{
+        background: #999;
+        max-height: 60%;
+    }
+    .videotwo{
+        max-height: 60%;
+    }
+    .videothree{
+        max-height: 60%;
+    }
+    .wedding{
+        max-height: 60%;
+    }
+    .interview{
+        max-height: 60%;
+    }
+    video{
+        margin: 50px 2px;
+        width: 99%;
+        height: 99%;
+    }
+    .sidetaitle{
+        font-size: 1rem;
+    }
+    .sidecontent{
+        font-size: .6rem; 
+        padding: 0 10px 0 10px;
+        margin: 20px 0 0 30px;
+        border: none;
+    }
+    .explanation{
+        height: 100%;
+        top: 0;
+        border-right: none;
+    }
+    .explanation.on{
+        width: 100%;
+    }
+    .explanation .markone{
+        width: 25px;
+        top: 15%; left: -25px;
+    }
+    .conti{
+        height: 100%;
+        top: 0;
+    }
+    .conti .marktoo{
+        width: 25px;
+        top: 35%; left: -25px;
+    }
+    .conti.on{
+        right: 0; top: -40px;
+        width: 100%;
+        height: 120%;
+    }
+    .contiimg{
+        width: 45%;
+    }
+    .source{
+        height: 100%;
+        top: 0;
+    }
+    .source .markthree{
+        width: 25px;
+        top: 55%; left: -25px;
+    }
+    .neimcade{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .thankyou{
+        font-size: 2.5rem;
+        line-height: 70px;
+        text-shadow: .4rem .4rem 0 gray;
+    }
+    .neim{
+        font-size: 1rem;
+        line-height: 50px;
+
+    }
+    .lastimg{
+        display: none;
+    }
+}

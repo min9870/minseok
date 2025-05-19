@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+@media screen and (max-width:768px) {
+    .smth {
+        padding: 50px 80px;
+        transition: none;
+        display: block;
+    }
+    .smth.on{
+        display: none;
+    }
+    .sm {
+        font-size: 6em;
+        animation: none;
+        writing-mode:horizontal-tb
+    }
+    .shootf{
+        margin: 0 0 0 250px;
+        width: 60%; 
+    }
+    .camslaid {
+        width: 400px;
+        height: 300px;
+        margin: 600px 0 0 150px;
+        animation: none;
+    }
+    .mySwiper{
+        width: 100%;
+        height: 80%;
+        margin: -40px;
+        top: -90px; left: 15px;
+    }
+    .arow-next{
+        width: 35px;
+        height: 35px;
+        top: 10px ; right: -111px;
+    }
+    .arow-prev{
+        width: 35px;
+        height: 35px;
+        top: 10px ; left: 400px;
+    }
+    .in{
+        width: 35px;
+        height: 35px;
+        top: -108px ; left: 410px;
+    }
+    .last img{
+        width: 35px;
+        height: 35px;
+        top: -108px ; left: 465.5px;
+    }
+   
+    .taitle{
+        font-size: 5rem;
+        margin: 50px 0 0 90px;
+    }
+    .content{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .mypoto{
+        margin: 20px 200px;
+    }
+    .mypoto.on{
+        width: 25%;
+    }
+    .career{
+        line-height: 25px;
+        font-size: 1rem;
+        margin: 30px 0 0 0;
+    }
+    .ability{
+        width: 10%;
+        height: 550px;
+        bottom: 50px; right: 50px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .abilitylogo{
+        width: 55px;
+        height: 55px;
+    }
+    video{
+        margin: 80px 65px;
+        width: 80%;
+        height: 80%;
+    }
+    .sidetaitle{
+        font-size: 2rem;
+        margin: 10px;
+    }
+    .sidecontent{
+        font-size: 1rem;
+        margin: 40px 0 0 0;
+        padding: 0 20px 0 20px;
+    
+    }
+    .sidecontent:nth-child(5){
+        border: none;
+    }
+    .sidecontent:nth-child(4){
+        border: none;
+    }
+    .explanation{
+        height: 100%;
+        top: 0;
+    }
+    .explanation.on{
+        width: 100%;
+    }
+    .explanation .markone{
+        width: 35px;
+        top: 15%; left: -35px;
+    }
+    .conti{
+        height: 100%;
+        top: 0;
+    }
+    .conti .marktoo{
+        width: 35px;
+        top: 30%; left: -35px;
+    }
+     .conti.on{
+        height: 100%;
+        right: -70px;
+     }
+     .contiimg{
+        width: 33%;
+     }
+    .source{
+        height: 100%;
+        top: 0;
+    }
+    .source .markthree{
+        width: 35px;
+        top: 45%; left: -35px;
+    }
+    .neimcade{
+        width: 35%;
+        margin-left: 80px;
+    }
+    .thankyou{
+        font-size: 3rem;
+        line-height: 110px;
+    }
+    .neim{
+        font-size: 1.5rem;
+        line-height: 60px;
+    }
+    .lastimg{
+        width: 50%;
+    }
+}

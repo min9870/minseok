@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@media screen and (max-width:1024px) {
+    .smth {
+        padding: 80px 80px;
+    }
+    .sm {
+        font-size: 6em;
+    }
+    .shootf{
+        margin: 0 0 0 250px;
+        width: 60%;
+    }
+    .camslaid {
+        width: 400px;
+        height: 300px;
+        margin: 280px 0 0 300px;
+    }
+    .mySwiper{
+        width: 100%;
+        height: 80%;
+        margin: -40px;
+        top: -90px; left: 15px;
+    }
+    .arow-next{
+        width: 35px;
+        height: 35px;
+        top: 9.5px ; right: -111px;
+    }
+    .arow-prev{
+        width: 35px;
+        height: 35px;
+        top: 9.6px ; left: 400px;
+    }
+    .in{
+        width: 35px;
+        height: 35px;
+        top: -108px ; left: 410.5px;
+    }
+    .last img{
+        width: 35px;
+        height: 35px;
+        top: -108px ; left: 466px;
+    }
+    .taitle{
+        font-size: 5rem;
+        margin: 20px 0 0 50px;
+    }
+    .mypoto{
+        margin: 50px 0 0 100px;
+    }
+    .mypoto.on{
+        width: 25%;
+    }
+    .career{
+        line-height: 30px;
+        font-size: 1.2rem;
+        margin: 30px 0 0 100px;
+    }
+    .ability{
+        width: 70%;
+        height: 150px;
+        bottom: 50px; right: 150px;
+        justify-content: space-between;
+    }
+    .abilitylogo{
+        width: 55px;
+        height: 55px;
+    }
+    video{
+        margin: 160px 50px;
+        width: 80%;
+        height: 80%;
+    }
+    .explanation .markone{
+        width: 40px;
+        top: 20%; left: -40px;
+    }
+    .conti .marktoo{
+        width: 40px;
+        top: 40%; left: -40px;
+    }
+     .conti.on{
+        height: 100%;
+        top: 0; right: -100px;
+     }
+    .source .markthree{
+        width: 40px;
+        top: 60%; left: -40px;
+    }
+    .neimcade{
+        width: 35%;
+        margin-left: 150px;
+    }
+    .thankyou{
+        font-size: 3rem;
+        line-height: 110px;
+    }
+    .neim{
+        font-size: 1.5rem;
+        line-height: 60px;
+    }
+    .lastimg{
+        width: 50%;
+    }
+    .contipg{
+        flex-wrap: wrap;
+    }
+     .contiimg{
+        width: 25%;
+        padding: 0;
+     }
+}
