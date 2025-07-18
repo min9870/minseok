@@ -108,11 +108,11 @@
 }
 
 .mySwiper .swiper-slide:nth-child(3) {
-    background: url('../imges/bg.jpg') no-repeat center/cover;
+    background: url('../imges/Still001.png') no-repeat center/cover;
 }
 
 .mySwiper .swiper-slide:nth-child(4) {
-    background: url('../imges/poket.png') no-repeat center/cover;
+    background: url('../imges/live2Dstil.png') no-repeat center/cover;
 }
 
 .arow-next {
@@ -328,7 +328,7 @@
 }
 
 .videotwo {
-    background: rgb(255, 232, 236);
+    background: rgb(255, 227, 174);
     width: 1%;
     height: 1%;
     z-index: 999;
@@ -340,7 +340,7 @@
 }
 
 .videothree {
-    background: rgb(138, 218, 250);
+    background: url('../imges/live2Dbg.jpg') no-repeat center/cover;
     width: 1%;
     height: 1%;
     z-index: 999;
@@ -377,14 +377,24 @@ iframe {
     z-index: 9;
 }
 
-.wedding {
-    background-color: rgb(252, 218, 224);
-}
-
 .interview {
-    background-color: skyblue;
+    background-color: rgb(255, 227, 174);
 }
-
+.videotwo > .group > .icon > .conti {
+    background-color: rgb(255, 227, 174);
+}
+.videotwo > .group > .icon > .source {
+    background-color: rgb(255, 227, 174);
+}
+.live2D{
+    background-color: rgb(238, 174, 57);
+}
+.videothree > .group > .icon > .conti {
+    background-color: rgb(238, 174, 57);
+}
+.videothree > .group > .icon > .source {
+    background-color: rgb(238, 174, 57);
+}
 .conti {
     width: 0%;
     height: 100%;
@@ -472,6 +482,13 @@ iframe {
 .contiimg {
     width: 20%;
     padding: 10% 5px;
+}
+
+.videoone > .group > .icontoo > .source > .contipg > .contiimg{
+    width: 50%;
+}
+.videotwo > .group > .icon > .conti > .contipg > .contiimg{
+    width: 25%;
 }
 
 @media(max-width: 2560px) {
